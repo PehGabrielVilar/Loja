@@ -6,7 +6,7 @@ public class Principal {
    
    public static void main (String[] args){
        
-        Carro carro = new Carro ();
+        Carro carro1 = new Carro ();
         
         Scanner scan = new Scanner(System.in);
         
@@ -29,12 +29,12 @@ public class Principal {
         carro.peso = scan.next();
          
         
-        System.out.println("nome:" + carro.nome);
-        System.out.println("marca: " + carro.marca);
-        System.out.println("cor: " + carro.cor);
-        System.out.println("fabricacao: " + carro.fabricacao);
-        System.out.println("largura: " + carro.largura);
-        System.out.println("peso: " + carro.peso);
+        System.out.println("nome:" + carro1.nome);
+        System.out.println("marca: " + carro1.marca);
+        System.out.println("cor: " + carro1.cor);
+        System.out.println("fabricacao: " + carro1.fabricacao);
+        System.out.println("largura: " + carro1.largura);
+        System.out.println("peso: " + carro1.peso);
          
         Carro veiculo = new Carro ();
         
@@ -63,7 +63,7 @@ public class Principal {
         System.out.println("largura: " + veiculo.largura);
         System.out.println("peso: " + veiculo.peso);
         
-       
+        
         
    }
 }
